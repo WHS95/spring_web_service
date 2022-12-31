@@ -1,4 +1,4 @@
-package com.web_service.demo;
+package com.web_service.book.springboot;
 
 
 import org.junit.Test;
