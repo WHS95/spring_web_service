@@ -31,9 +31,6 @@ public class HelloResponseDtoTest {
         //isEqualTo??
         //assertj와 동등 비교 메소드이다.
         //assertThat에 있는 값과 isEqualTo의 값을 비교해서 같을때만 성공입니다.
-
-
-
     }
 
 }
