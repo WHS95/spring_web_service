@@ -46,7 +46,7 @@ public class Posts {
         this.content = content;
         this.author =  author;
     }
-    public void update(String title, String content) {
+    public void update(String title, String content) {//void란 Return 되는 타입이 없음을 의미한다. return하는게 존재하면 에러가 발생
         this.title = title;
         this.content = content;
     }
