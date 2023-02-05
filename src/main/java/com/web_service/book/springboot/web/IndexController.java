@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class IndexController {
     @GetMapping("/")
     public String index(){
-        return  "index";
+        return  "index";//index.mustache 호출
+    }
+
+    @GetMapping("/post/save")
+    public String postsSave(){
+        return "posts-save";//posts-save.mustache 호출
     }
 }
